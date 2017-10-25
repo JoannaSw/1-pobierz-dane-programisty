@@ -68,7 +68,6 @@ function ajax(ajaxOptions) {
                  }
              })
 
-
          })
      })
  }
