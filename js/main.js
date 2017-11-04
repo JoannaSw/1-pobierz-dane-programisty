@@ -44,8 +44,7 @@ function ajax(ajaxOptions) {
     httpReq.send();
 }
 
-
- function download() {
+function download() {
      $('#download').on({
          click: (function () {
              ajax({
@@ -71,4 +70,9 @@ function ajax(ajaxOptions) {
          })
      })
  }
-                       
+
+var $newdiv1 = $("<div id='dane-programisty'></div>");
+ 
+$("button").after($newdiv1);
+
+$("button").attr('id', 'download');
